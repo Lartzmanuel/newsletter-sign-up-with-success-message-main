@@ -3,7 +3,7 @@
 function validateEmail() {
     const email = document.getElementById('email');
     const emailInput = email.value;
-    const emailRegex = /^[^s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const errorMessage = document.getElementById('errorMessage')
 
     if(emailRegex.test(emailInput)){
